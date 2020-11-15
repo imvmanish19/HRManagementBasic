@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+    "h h h"
+    "m d d";
+}
+
+header {
+    background: linear-gradient(45deg,rgba(6, 209, 60, 0.8),rgba(6, 209, 60,0.5));
+    text-align: center;
+    grid-area: h;
+}
+
+header h1 {
+    color: crimson;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    padding: 15px;
+    font-size: 36px;
+    animation: moveToRight 1s;
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+main button {
+    margin-top: 10px;
+    background-color: crimson;
+    padding: 20px;
+    width: 250px;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-left: 22px;
+}
+
+main {
+    width: 300px;
+    background-color: black;
+    height: auto;
+    grid-area: m;
+}
+
+main .menu {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+#data {
+    grid-area: d;
+    background-color: darkorange;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 40px;
+    margin: 100px;
+}
+
+.welcome1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.btn-standard {
+    background-color: teal;
+    font-size: 16px;
+    padding: 20px;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+.welcome2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+main button:last-child {
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+}
