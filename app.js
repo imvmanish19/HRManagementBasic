@@ -1,7 +1,7 @@
 let data = [
     {
-        name: "Rahul",
-        email: "example@gmail.com",
+        name: "Manish",
+        email: "imvmanish19@gmail.com",
         suitable: "90"
     },
     {
