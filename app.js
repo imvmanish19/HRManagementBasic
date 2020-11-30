@@ -21,7 +21,7 @@ let data = [
     },
     {
         name: "Krishna",
-        email: "example@gmail.com",
+        email: "imvinayak19@gmail.com",
         suitable: "95"
     },
     {
@@ -84,7 +84,7 @@ hire.onclick = function(event) {
     let th3 = document.createElement('th');
     th1.textContent = "Name";
     th2.textContent = "Email";
-    th3.textContent = "Chances(in percentage)";
+    th3.textContent = "Chances";
     let trow = document.createElement('tr');
     trow.append(th1,th2,th3);
     table.append(trow);
