@@ -11,12 +11,12 @@ let data = [
     },
     {
         name: "Gopal",
-        email: "example@gmail.com",
+        email: "1MS18CS072@gmail.com",
         suitable: "92"
     },
     {
         name: "Ram",
-        email: "example@gmail.com",
+        email: "1MS18CS067@gmail.com",
         suitable: "93"
     },
     {
